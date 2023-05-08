@@ -10,6 +10,6 @@ console.log('type of totalPets: ', typeof totalPets);
 const unknown = null;
 console.log('unknown variable: ', unknown);
 console.log('type of unknown: ', typeof unknown);
-const never = undefined;
+let never; // without initialization, the variable is undefined. Using let for later assignment
 console.log('"never" variable: ', never);
 console.log('type of never: ', typeof never);
