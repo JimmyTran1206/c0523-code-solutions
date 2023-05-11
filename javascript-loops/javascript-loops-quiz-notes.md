@@ -25,7 +25,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   **final** expression in the for-loop is evaluated after the loop successfully complete each iteration.
 
 - Besides a `return` statement, which exits its entire function block, which keyword exits a loop before its **condition** expression evaluates to `false`?
-  Keyword `break`
+  We can use the keyword `break` to exit the loop
 
 - What does the `++` increment operator do?
   Increase the value of the variable by 1
