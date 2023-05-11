@@ -1,7 +1,6 @@
 /* exported tail */
 const tail = (array) => {
   // using rest collection
-  const [x, ...result] = array;
-  console.log(x);
+  const [, ...result] = array;
   return result;
 };
