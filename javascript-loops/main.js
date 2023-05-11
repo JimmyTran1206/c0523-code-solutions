@@ -6,14 +6,14 @@
             getKeys,
             getValues
  */
-const getNumbersToTen = () => {
+function getNumbersToTen() {
   const numbers = [];
   let currentNumber = 1;
   while (currentNumber <= 10) {
     numbers.push(currentNumber++);
   }
   return numbers;
-};
+}
 
 function getEvenNumbersToTwenty() {
   const evenNumbers = [];
