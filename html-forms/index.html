@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-form</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="#" method="POST">
+      <div>
+        <label for="email">Email:</label> <br />
+        <input type="email" name="txtEmail" id="email" />
+      </div>
+      &nbsp;
+
+      <div>
+        <label for="dropdown">Why is coding cool?</label><br />
+        <select name="cboDropdown" id="dropdown">
+          <option value="">Select an option</option>
+          <option value="">Because it's interesting</option>
+          <option value="">Because it's fun</option>
+          <option value="">Because it's powerful</option>
+        </select>
+      </div>
+      &nbsp;
+
+      <div>
+        <label for="radio">Favorite Language (choose one)</label><br />
+        <input type="radio" name="radButton" id="rad1" /> HTML
+        <input type="radio" name="radButton" id="rad2" /> CSS
+        <input type="radio" name="radButton" id="rad3" /> JavaScript
+      </div>
+      &nbsp;
+      <div>
+        <label for="checkbox"
+          >Would you like to sign up for more information?</label
+        ><br />
+        <input type="checkbox" name="chkCheckbox" id="checkbox" /> Sign me up!
+      </div>
+      &nbsp;
+      <div>
+        <label for="comment">Comments:</label><br />
+        <textarea name="txtComment" id="comment" cols="30" rows="10"></textarea>
+      </div>
+      &nbsp;
+      <div><input type="submit" value="Submit" /></div>
+    </form>
+  </body>
+</html>
