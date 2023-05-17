@@ -21,7 +21,7 @@ label {
 
 input,
 select {
-  width: 75%;
+  width: 90%;
   height: 50px;
   border-radius: 6px;
   margin: 5px auto 20px;
@@ -56,6 +56,6 @@ button {
 }
 
 div {
-  width: 75%;
+  width: 90%;
   text-align: right;
 }
