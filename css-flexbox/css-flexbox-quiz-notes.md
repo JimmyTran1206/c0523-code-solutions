@@ -8,7 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   `flex-direction: row`
 
 - What is the default `flex-wrap` of a `flex` container?
-  `flex-wrap: wrap`
+  `flex-wrap: no wrap`
 
 - What axis do the `justify-content` properties work on?
   main axis
