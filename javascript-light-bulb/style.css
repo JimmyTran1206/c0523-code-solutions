@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef9f1;
+}
+
+.bulb {
+  width: 20%;
+  border-radius: 50%;
+  background-color: #faea84;
+  position: relative;
+}
+
+.bulb:active {
+  top: 3%;
+}
+
+/* responsive circle */
+.bulb::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.dark {
+  background-color: #111;
+}
+
+.off {
+  background-color: #252525;
+}
