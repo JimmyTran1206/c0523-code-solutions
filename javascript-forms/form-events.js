@@ -13,7 +13,6 @@ function handleInput(event) {
 const $name = document.querySelector('#user-name');
 const $email = document.querySelector('#user-email');
 const $message = document.querySelector('#user-message');
-console.log($name);
 
 $name.addEventListener('focus', handleFocus);
 $name.addEventListener('blur', handleBlur);
