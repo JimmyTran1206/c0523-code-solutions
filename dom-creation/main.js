@@ -91,9 +91,4 @@ function renderPokemon(pokemon) {
 }
 
 const $row = document.querySelector('.row');
-pokedex.forEach((x) => $row.appendChild(renderPokemon(x)));
-
-// for(const x of pokedex){
-//  const $elem=renderPokemon(x);
-//  $row.appendChild($elem);
-// }
+pokedex.forEach((pokemon) => $row.appendChild(renderPokemon(pokemon)));
