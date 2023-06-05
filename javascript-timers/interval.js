@@ -7,7 +7,7 @@ const countdown = () => {
     $h1.innerText = num;
   } else {
     $h1.innerText = '~Earth Beeeelooowww Us~';
-    clearInterval(intervalId);
+    clearInterval(intervalId); // embed the clear interval (stop criteria) in the callback. Always use clearInterval when you use setInterval
   }
 };
 
