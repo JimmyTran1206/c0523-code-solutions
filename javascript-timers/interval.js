@@ -2,7 +2,7 @@ const $h1 = document.querySelector('h1.countdown-display');
 
 const countdown = () => {
   let num = parseInt($h1.innerText);
-  if (num > 0) {
+  if (num > 1) {
     num--;
     $h1.innerText = num;
   } else {
