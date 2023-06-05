@@ -2,13 +2,13 @@ const $h1 = document.querySelector('h1.countdown-display');
 
 const countdown = () => {
   let num = parseInt($h1.innerText);
-  if (num > 1) {
+  if (num > 0) {
     num--;
     $h1.innerText = num;
   } else {
     $h1.innerText = '~Earth Beeeelooowww Us~';
-    window.clearInterval(intervalId);
+    clearInterval(intervalId);
   }
 };
 
-const intervalId = window.setInterval(countdown, 1000);
+const intervalId = setInterval(countdown, 1000);
