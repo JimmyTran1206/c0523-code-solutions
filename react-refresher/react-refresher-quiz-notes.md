@@ -41,7 +41,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - How do you let a parent component know that an event happened?
 
-  - the parent component can pass the event handler to the child component. When fired, the event from the child component is bubbled up to the parent component.
+  - the parent component can pass the event handler to the child component. When the event is fired at a chile component, the event from the child component is bubbled up to the parent component.
 
 ## Notes
 
