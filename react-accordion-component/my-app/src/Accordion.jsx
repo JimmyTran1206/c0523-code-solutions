@@ -7,7 +7,7 @@ export default function Accordion({ content }) {
     <Panel
       item={item}
       isActive={activeIndex === item.id}
-      onShow={() => setActiveIndex(activeIndex ? null : item.id)}
+      onShow={() => setActiveIndex(activeIndex === item.id ? null : item.id)}
     />
   ));
   return <div>{element}</div>;
