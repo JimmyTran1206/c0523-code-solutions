@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default function PrevButon() {
+export default function PrevButon({ onPrev }) {
   return (
     <div>
-      <button style={{ backgroundColor: 'white' }}>Previous</button>
+      <button name="Prev" style={{ backgroundColor: 'white' }} onClick={onPrev}>
+        Previous
+      </button>
     </div>
   );
 }

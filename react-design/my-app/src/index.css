@@ -10,3 +10,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button:active {
+  transform: scale(0.9);
+}
+
+.btn-active {
+  background-color: lightblue;
+}
+
+.btn-inactive {
+  background-color: white;
+}
