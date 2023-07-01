@@ -6,9 +6,17 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What are the phases in the React design process?
 
+  - Phase 1: UI mock up
+  - Phase 2: UI state
+  - Phase 3: UI events
+
 - How does data flow in React?
 
+  -From parent to children components
+
 - How can children components modify state in their parents?
+
+  - I dont think so.
 
 ## Notes
 
