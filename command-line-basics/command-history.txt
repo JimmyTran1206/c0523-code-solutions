@@ -1,0 +1,500 @@
+   65  git switch main
+   66  git switch http-messages
+   67  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   68  http --verbose  https://example.com
+   69  git switch main
+   70  git add http-messages/
+   71  git commit -m "Completed HTTP messages Jimmy Tran"
+   72  git add http-messages/
+   73  git commit -m "Completed HTTP messages Jimmy Tran"
+   74  git add http-messages/
+   75  git commit -m "Completed HTTP messages Jimmy Tran"
+   76  git add http-messages/
+   77  git commit -m "Completed HTTP messages Jimmy Tran"
+   78  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   79  http --body GET https://example.com > http-messages/index.html
+   80  git add http-messages/
+   81  git commit -m "Completed HTTP messages Jimmy Tran"
+   82  git commit -m "Completed HTTP messages Jimmy Tran" --alow-empty
+   83  git push origin http-messages
+   84  git switch main
+   85  git commit -m index.html
+   86  git branch -d http-messages
+   87  git switch main
+   88  git add index.html
+   89  git add --all
+   90  git status
+   91  git commit -m
+   92  git commit -m "Completed HTTP messages Jimmy Tran" --alow-empty
+   93  git commit -m "Completed HTTP messages Jimmy Tran"
+   94  git push origin main
+   95  git push origin http-messages
+   96  git switch main
+   97  git branch javascript-new
+   98  clear
+   99  git switch javascript-new
+  100  git add javascript-new/
+  101  git commit -m "Completed javascript-new Jimmy Tran"
+  102  git push origin javascript-new
+  103  git add javascript-new/
+  104  git commit -m "Completed javascript-new Jimmy Tran"
+  105  git push origin javascript-new
+  106  git switch main
+  107  git branch javascript-ajax
+  108  git switch javascript-ajax
+  109  git add javascript-ajax/
+  110  git commit -m "Completed javascript-ajax Jimmy Tran"
+  111  git pusht origin javascript-ajax/
+  112  git push origin javascript-ajax/
+  113  git push origin javascript-ajax
+  114  git switch main
+  115  git pull origin main
+  116  git pull origin main
+  117  git add .
+  118  git commit .
+  119  git add .
+  120  git commit .
+  121  git pull origin main
+  122  git switch css-flexbox
+  123  git add css-flexbox/
+  124  git commit -m "css-flexbox"
+  125  git push origin css-flexbox
+  126  git switch main
+  127  git branch objects-revisited
+  128  git switch objects-revisited
+  129  git add objects-revisited/
+  130  git commit -m "Completed Objects-revisited Jimmy Tran"
+  131  git push origin objects-revisited
+  132  git switch main
+  133  git branch es6-destructuring
+  134  git switch es6-destructuring
+  135  git add es6-destructuring/
+  136  git commit -m "Completed ES6-Destructuring Jimmy Tran"
+  137  git push origin es6-destructuring
+  138  git switch main
+  139  git branch es6-arrow-functions
+  140  git switch es6-arrow-functions
+  141  git add es6-arrow-functions/
+  142  git commit -m "Completed ES6-Arrow-Function"
+  143  git push origin es6-arrow-functions
+  144  git switch main
+  145  git branch array-filter
+  146  git switch array-filter
+  147  git add array-filter/
+  148  git commit -m "Completed array-filter"
+  149  git push origin array-filter
+  150  git branch array-methods
+  151  git switch array-methods
+  152  git add array-methods
+  153  git commit -m "Completed array-methods"
+  154  git push origin array-methods
+  155  git switch main
+  156  git branch -D array-filter
+  157  git branch es6-operators
+  158  git switch es6-operators
+  159  git add es6-operators
+  160  git commit -m "Completed ES6-operators"
+  161  git push origin es6-operators
+  162  git switch main
+  163  git branch big-o-notation
+  164  git branch big-o-notation
+  165  git switch big-o-notation
+  166  git add big-o-notation/
+  167  git commit -m "Completed big-o-notation"
+  168  git push origin big-o-notation
+  169  git switch main
+  170  git branch mpm-intro
+  171  git branch -D mpm-intro
+  172  git branch npm-intro
+  173  git switch npm-intro
+  174  cd npm-intro
+  175  cp .npm-init.js ~/.npm-init.js
+  176  npm init
+  177  cd npm-intro
+  178  npm init --yes
+  179  npm init --yes
+  180  npm install jquery
+  181  ls
+  182  npm install eslint --save-dev
+  183  npm run hello
+  184  cd ..
+  185  git add npm-intro/
+  186  git commit -m "Completed npm-intro"
+  187  git push origin npm-intro
+  188  ls
+  189  git add npm-intro/
+  190  git commit -m "Completed npm-intro"
+  191  git push origin npm-intro
+  192  git switch main
+  193  git branch webpack-and-babel
+  194  git switch webpack-and-babel
+  195  cd webpack-and-babel/
+  196  cd ../
+  197  git add webpack-and-babel/
+  198  git commit -m "Completed webpack and babel"
+  199  git push origin webpack-and-babel
+  200  git add webpack-and-babel/
+  201  git commit -m "Completed webpack and babel"
+  202  git push origin webpack-and-babel
+  203  git switch main
+  204  git branch react-intro
+  205  git switch react-intro
+  206  cd react-intro/
+  207  npx create-react-app my-app
+  208  cd my-app
+  209  npm start
+  210  cd ../..
+  211  git add react-intro/
+  212  git add react-intro/
+  213  git commit -m "Completed react-intro"
+  214  git push origin react-intro
+  215  GIT SWITCH MAIN
+  216  git switch main
+  217  git branch react-jsx
+  218  cd react-jsx
+  219  git switch react-jsx
+  220  cd react-jsx/
+  221  npx create-react-app my-app
+  222  sd my-app
+  223  cd my-app
+  224  npm start
+  225  cd ../..
+  226  git add react-jsx/
+  227  git commit -m "Completed react-jsx"
+  228  git push origin react-jsx
+  229  git switch main
+  230  git branch react-components
+  231  git switch react-components
+  232  cd react-components/
+  233  npx create-react-app my-app
+  234  cd my-app
+  235  npm start
+  236  cd ../..
+  237  git add react-components/
+  238  git commit -m "Completed react-components"
+  239  git push origin react-components
+  240  git pull origin main
+  241  git switch main
+  242  git pull origin main
+  243  git pull origin main
+  244  git pull origin main
+  245  git pull main origin
+  246  git pull origin main
+  247  git pull origin main
+  248  git branch react-props-and-expressions
+  249  git switch react-props-and-expressions
+  250  cd react-props-and-expressions/
+  251  create-react-app my-app
+  252  npx create-react-app my-app
+  253  npm start
+  254  cd react-props-and-expressions/
+  255  npm start
+  256  npm run start
+  257  cd react-intro
+  258  cd ../react-intro
+  259  npm start
+  260  cd ../react-props-and-expressions/
+  261  cd my-app
+  262  npm start
+  263  cd ../..
+  264  git add react-props-and-expressions/
+  265  git commit -m "Completed react-props-and-expressions"
+  266  git push origin main
+  267  git push origin react-props-and-expressions
+  268  git switch main
+  269  git branch react-events
+  270  git switch react-events
+  271  cf react-events/
+  272  cd react-events/
+  273  npx create-react-app my-app
+  274  cd my-app
+  275  npm start
+  276  cd ../..
+  277  git add react-events/
+  278  git commit -m "Comnpleted react-events"
+  279  git push origin react-events
+  280  git switch main
+  281  git branch react-state
+  282  git switch react-state
+  283  cd react-state/
+  284  npx create-react-app my-app
+  285  git cd ../
+  286  cd ../
+  287  git branch react-events
+  288  git switch react-events
+  289  git add react-events/
+  290  git commit -m "Completed React Events with quizzes"
+  291  git push origin react-events
+  292  git branch react-state
+  293  git switch react-state
+  294  cd react-state/my-app
+  295  npm start
+  296  cd ../..
+  297  git add react-state/
+  298  git commit -m "Completed React-State"
+  299  git push origin react-state
+  300  git switch main
+  301  git branch react-refresher
+  302  git switch react-refresher
+  303  cd react-refresher/
+  304  npx create-react-app my-app
+  305  cd my-app
+  306  npm start
+  307  cd ../..
+  308  git add react-refresher/
+  309  git commit -m "Completed React-referesher"
+  310  git push origin react-refresher
+  311  git switch main
+  312  git branch react-hot-button-component
+  313  git switch react-hot-button-component
+  314  git switch react-refresher
+  315  git add react-refresher/
+  316  git commit -m "Completed React Referesher"
+  317  git commit -m "Completed React Referesher"
+  318  git add react-refresher/
+  319  git commit -m "Completed React Referesher"
+  320  git push origin react-refresher
+  321  git switch main
+  322  git switch react-hot-button-component
+  323  cd react-hot-button-component/
+  324  npx create-react-app my-app
+  325  cd my-app
+  326  npm start
+  327  git switch main
+  328  git switch react-hot-button-component
+  329  cd ../..
+  330  git switch main
+  331  git branch -D react-hot-button-component
+  332  git branch react-hot-button-component
+  333  git switch react-hot-button-component
+  334  cd react-hot-button-component/my-app/
+  335  npm run
+  336  npm run start
+  337  cd ../..
+  338  git add react-hot-button-component/
+  339  git commit -m "Completed react hot button component"
+  340  git push origin react-hot-button-component
+  341  cd react-hot-button-component/my-app/
+  342  run start
+  343  npm start
+  344  cd ../..
+  345  git switch main
+  346  git branch react-toggle-switch-component
+  347  git switch react-toggle-switch-component
+  348  cd react-toggle-switch-component/
+  349  npx create-react-app my-app
+  350  cd my app
+  351  cd my-app
+  352  npm start
+  353  npm install react-icons
+  354  npm start
+  355  cd ../..
+  356  git add react-toggle-switch-component/
+  357  git commit -m "Completed react toggle switch component"
+  358  git push origin react-toggle-switch-component
+  359  git switch main
+  360  git branch react-rendering-lists
+  361  git switch react-rendering-lists
+  362  cd react-rendering-lists/
+  363  npx create-react-app my-app
+  364  cd my-app
+  365  npm start
+  366  cd ../..
+  367  git add react-rendering-lists/
+  368  git commit -m "Completed react rendering lists"
+  369  git push origin react-rendering-lists
+  370  git switch main
+  371  git branch react-form-controls
+  372  git switch react-form-controls
+  373  cd react-form-controls/
+  374  npx create-react-app my-app
+  375  cd my-app
+  376  npm start
+  377  cd ../..
+  378  git add react-form-controls/
+  379  git commit -m "Completed react-form-control
+  380  git commit -m "Completed react-form-control"
+  381  git push origin react-form-controls
+  382  git switch main
+  383  git branch react-validated-input-component
+  384  git branch switch react-validated-input-component
+  385  git branch -d
+  386  git branch -list
+  387  git branch --list
+  388  git branch -d switch
+  389  git switch react-validated-input-component
+  390  cd react-validated-input-component/
+  391  npx create-react-app my-app
+  392  cd my-app
+  393  npm start
+  394  git switch main
+  395  git switch react-validated-input-component
+  396  cd ../..
+  397  cd./
+  398  cd ./
+  399  git switch main
+  400  git branch react-design
+  401  git switch react-design
+  402  cd react-design/
+  403  npx create-react-app my-app
+  404  cd my app
+  405  cd my-app
+  406  npm start
+  407  cd ../..
+  408  git switch main
+  409  git branch react-accordion-component
+  410  git switch react-accordion-component
+  411  cd react-accordion-component/
+  412  cd react-accordion-component/
+  413  npx create-react-app my-app
+  414  git switch react-validated-input-component
+  415  cd react-validated-input-component/
+  416  cd my-app
+  417  npm start
+  418  cd ../..
+  419  git add react-validated-input-component/
+  420  git commit -m "Completed React valiated input component"
+  421  git push origin react-validated-input-component
+  422  git switch react-design
+  423  cd react-design/
+  424  cd my-app
+  425  npm start
+  426  cd ../..
+  427  git add react-design/
+  428  git commit -m "Completed phase 1"
+  429  git push origin react-design
+  430  cd react-design
+  431  cd my-app
+  432  npm start
+  433  cd react-design/my-app/
+  434  npm start
+  435  cd ../..
+  436  cd react-design-2
+  437  cd my-app
+  438  npm start
+  439  npm install
+  440  npm start
+  441  cd ../..
+  442  cd react-design/my-app
+  443  npm start
+  444  npm start
+  445  cd ../..
+  446  git add react-design/
+  447  git commit -m "Completed phase 2 and phase 3"
+  448  git push origin react-design
+  449  git switch main
+  450  git switch react-accordion-component
+  451  cd react-accordion-component/
+  452  cd my-app
+  453  npm start
+  454  cd../..
+  455  cd ../..
+  456  git switch react-design
+  457  git add react-design/
+  458  git commit -m "Completed phase 2 and phase 3 with quizzes"
+  459  git push origin react-design
+  460  git switch react-accordion-component
+  461  cd react-accordion-component/my-app/
+  462  npm start
+  463  git ../..
+  464  cd ../..
+  465  git add react-accordion-component/
+  466  git commit -m "Completed React Accordion Component"
+  467  git push origin react-accordion-component
+  468  cd react-accordion-component/my-app
+  469  npm start
+  470  cd ../..
+  471  git add react-accordion-component/
+  472  git commit -m "Complted React-Accordion-Component Single Click on all element"
+  473  git push origin react-accordion-component
+  474  git switch main
+  475  git branch react-search-component
+  476  git branch react-app-drawer-component
+  477  cd react-search-component/
+  478  npx create-react-app my-app
+  479  cd my-app
+  480  npm start
+  481  cd ../..
+  482  cd react-app-drawer-component/
+  483  npx create-react-app my-app
+  484  cd my-app
+  485  npm start
+  486  git branch react-search-component
+  487  git switch react-search-component
+  488  cd react-search-component/
+  489  cd my-app/
+  490  npm start
+  491  cd ../..
+  492  git add react-search-component/
+  493  git commit -m "Completed React-Search-Component"
+  494  git push origin react-search-component
+  495  git switch main
+  496  cd react-app-drawer-component
+  497  cd my-app/
+  498  npm start
+  499  npm install
+  500  npm start
+  501  git branch command-line-basics
+  502  git switch command-line-basics
+  503  cd command-line-basics/
+  504  man man
+  505  man man
+  506  man cat
+  507  cat laziness.txt
+  508  cat impatience.txt
+  509  cat hubris.txt
+  510  cat laziness.txt impatience.txt hubris.txt
+  511  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  512  cat three-virtues.txt
+  513  man ls
+  514  ls lfz-staff/
+  515  ls -a lfz-staff/
+  516  ls -a -F lfz-staff/
+  517  man ls
+  518  ls -aF lfz-staff > lfz-staff/contents.txt
+  519  cat lfz-staff/contents.txt
+  520  man pwd
+  521  pwd
+  522  pwd>i-was-here.txt
+  523  ls
+  524  cat i-was-here.txt
+  525  man echo
+  526  echo 'Hello World!'
+  527  echo Hello World!
+  528  echo 'Hello, World!' > hello.txt
+  529  echo Hello, World! > hello.txt
+  530  cat hello.txt
+  531  man touch
+  532  touch tag-youre-it.txt
+  533  man touch snoot/boop.txt
+  534   touch snoot/boop.txt
+  535  ls snoot/
+  536  man mkdir
+  537  mkdir parent
+  538  man mkdir
+  539  mkdir parent/child/grandchild
+  540  mkdir -p parent/child/grandchild
+  541  cd parent/child/grandchild/
+  542  touch .gitkeep
+  543  ls
+  544  ls -a
+  545  ls parent
+  546  man mv
+  547  mv pokiemans pokemon
+  548  man mv
+  549  cd ../..
+  550  cd ..
+  551  mv pokiemans pokemon
+  552  man
+  553  man rm
+  554  man rm
+  555  rm lol.txt
+  556  rm kill-me/
+  557  rm -r  kill-me/
+  558  man rm
+  559  man cp
+  560  cp and-then.txt no-and-then.txt
+  561  man history
+  562  man history
+  563  history
+  564  history>command-history.txt
