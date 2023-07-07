@@ -32,6 +32,7 @@ async function create(data) {
   data.nextId++;
   const id = data.nextId.toString();
   data.notes[id] = text;
+  console.log(`Entry ${id} has been successfully created`);
   await writeFile('data.json', JSON.stringify(data, null, 2), 'utf-8');
 }
 
@@ -39,8 +40,9 @@ async function deleteEntry(data) {
   const id = process.argv[3];
   if (Object.keys(data.notes).includes(id)) {
     delete data.notes[id];
+    console.log(`Entry ${id} has been successfully deleted`);
   } else {
-    throw new Error(`ID ${id} does not exist`);
+    throw new Error(`Entry ${id} does not exist`);
   }
   await writeFile('data.json', JSON.stringify(data, null, 2), 'utf-8');
 }
@@ -50,9 +52,9 @@ async function update(data) {
   const text = process.argv[4];
   if (Object.keys(data.notes).includes(id)) {
     data.notes[id] = text;
-    console.log(`ID ${id} has been successfully updated`);
+    console.log(`Entry ${id} has been successfully updated`);
   } else {
-    throw new Error(`ID ${id} does not exist`);
+    throw new Error(`Entry ${id} does not exist`);
   }
   await writeFile('data.json', JSON.stringify(data, null, 2), 'utf-8');
 }
