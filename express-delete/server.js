@@ -33,8 +33,7 @@ app.get('/api/grades', (req, res) => {
 app.delete('/api/grades/:id', (req, res) => {
   const userId = req.params.id;
   if (!grades[userId]) {
-    res.send(`ID ${userId} not found`);
-    res.sendStatus(404);
+    res.status(404).send(`ID ${userId} not found`);
   } else {
     delete grades[userId];
     res.sendStatus(204);
