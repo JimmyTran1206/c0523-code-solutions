@@ -18,7 +18,7 @@ app.post('/api/grades/', (req, res) => {
   const obj = req.body;
   obj.id = nextId++;
   grades[obj.id] = obj;
-  res.json(obj);
+  res.status(201).json(obj);
 });
 
 app.listen('8080', () => console.log('Listening to port 8080'));
