@@ -15,7 +15,12 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What are some advantages of learning a relational database?
 
+- Many problem domains can be modeled well using a relational database.
+- Support data integrity
+- One SQL rules them all
+
 - What is one way to see if PostgreSQL is running?
+- use `sudo service postgresql status` and check if PostgreSQL is online or not.
 
 ## Notes
 
